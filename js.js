@@ -15,9 +15,13 @@
 // for (var i=korpusebi.length -1; i>=0; i--){
 //     document.write(korpusebi[i] + "</br>" )
 // }
+
+
 // for (var index in korpusebi){
 //     document.write(korpusebi[index]);
 // }
+
+
 // var index=0;
 // while (index < korpusebi.length){
 //     console.log(korpusebi[index]);
