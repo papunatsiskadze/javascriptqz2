@@ -1,4 +1,4 @@
-// 1))))
+// 1)))) 
 
 var cifrebi= [
     ["erti","ori","sami","otxi","xuti"],
