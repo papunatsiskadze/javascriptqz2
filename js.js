@@ -1,35 +1,19 @@
-// var people=["levani","shota","gurami","zurabi"];
+// 1))))
 
-// for (var i=people.length -1 ; i>=0; i--){
-//     console.log(people[i]);
-// }
-
-
-
-
-
-// var korpusebi=[59,60,61,62,63,64];
-// // for (var i=0; i<korpusebi.length; i++){
-// //     document.write(korpusebi[i] + "</br>");
-// // }
-// for (var i=korpusebi.length -1; i>=0; i--){
-//     document.write(korpusebi[i] + "</br>" )
-// }
-
-
-// for (var index in korpusebi){
-//     document.write(korpusebi[index]);
-// }
-
-
-// var index=0;
-// while (index < korpusebi.length){
-//     console.log(korpusebi[index]);
-//     index++;
-// }
-var x=1;
-do {
-    document.write(x * x + "</br>");
-    x++
+var cifrebi= [
+    ["erti","ori","sami","otxi","xuti"],
+    [1,2,3,4,5,6,7]
+];
+for (i=0; i<cifrebi.length; i++){
+    document.write(cifrebi[i] + "</br>");
 }
-while (x<=10);
+
+
+// 3))))
+// var cifrebi= [ 15,53,22,198,10,28,16,70,33,951 ];
+// var result=cifrebi.filter ((n) => n%2  >0);
+// document.write(result);
+
+
+
+// 2))))
