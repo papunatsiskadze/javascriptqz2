@@ -1,12 +1,12 @@
 // 1)))) 
 
-var cifrebi= [
-    ["erti","ori","sami","otxi","xuti"],
-    [1,2,3,4,5,6,7]
-];
-for (i=0; i<cifrebi.length; i++){
-    document.write(cifrebi[i] + "</br>");
-}
+// var cifrebi= [
+//     ["erti","ori","sami","otxi","xuti"],
+//     [1,2,3,4,5,6,7]
+// ];
+// for (i=0; i<cifrebi.length; i++){
+//     document.write(cifrebi[i] + "</br>");
+// }
 
 
 // 3))))
@@ -17,3 +17,17 @@ for (i=0; i<cifrebi.length; i++){
 
 
 // 2))))
+function display(x,secondfunc){
+    var shefaseba =secondfunc(x);
+    document.write(shefaseba);
+}
+function shefasebisfunc(price){
+    if (price <20)
+    return "იაფია" ;
+    else if (price <50)
+    return "საშუალო ფასი" ;
+    else if (price >50)
+    return "ძვირია" ;
+}
+
+display (30,shefasebisfunc)
